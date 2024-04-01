@@ -1,0 +1,27 @@
+1. Explain what the calculations above might or might not tell you about the "fairness" of your Naive Bayesian network. Explain in 50-100 words.
+
+The calculations provided are evaluating the performance of the Naive Bayesian network in predicting salaries based
+on various demographic factors. The fairness of the model might be assessed by examining whether the predictions are
+consistent across different gender groups. For instance, questions 3 and 4 compare the predictions for women and men,
+considering the influence of gender on the prediction accuracy. If there are significant disparities between these
+groups, it may suggest bias in the model, indicating potential fairness concerns.
+
+
+
+
+2. Would you be willing to use your model to recommend starting salaries for employees at a firm? Why or why not? Explain in 50-100 words.
+
+I would be cautious about using the model to recommend starting salaries for employees at a firm. While the Naive
+Bayesian network may capture some patterns in the data, it simplifies complex relationships and assumes independence
+between variables. This could lead to inaccurate predictions, especially if factors influencing salaries are more
+nuanced. Additionally, fairness considerations should be thoroughly evaluated before using the model for making salary
+recommendations to avoid perpetuating biases present in the training data.
+
+
+
+
+
+
+
+
+
